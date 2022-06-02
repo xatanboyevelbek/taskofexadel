@@ -1,0 +1,12 @@
+In this case, the following common errors might be caused:
+
+1. Access denied
+2. Permission denied
+
+Troubleshooting steeps:
+1. First of all, make sure that username and password is correct.
+2. Make sure you are authorized to logging into the server. It is mainly due to the sshd_config file that contains SSH server configuration.
+3. Navigate to /etc/ssh/sshd_config
+4. Make sure PasswordAuthentication and  PubkeyAuthentication ends with yes
+5. Make sure ChallengeResponseAuthentication and PermitRootLogin ends with no.
+6. Restart sshd_config.
