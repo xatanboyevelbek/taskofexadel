@@ -1,2 +1,2 @@
-Developed by Elbek Khatanboyev
-# Junior Node.js engineer
+# Developed by Elbek Khatanboyev
+Junior Node.js engineer
