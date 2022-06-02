@@ -10,4 +10,3 @@ Troubleshooting steeps:
 4. Make sure PasswordAuthentication and  PubkeyAuthentication ends with yes
 5. Make sure ChallengeResponseAuthentication and PermitRootLogin ends with no.
 6. Restart sshd_config.
-vhschshcv
